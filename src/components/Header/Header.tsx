@@ -1,8 +1,10 @@
+import HeaderStyled from "./HeaderStyled";
+
 const Header = (): JSX.Element => {
   return (
-    <header>
+    <HeaderStyled>
       <h1>To-Do App Redux</h1>
-    </header>
+    </HeaderStyled>
   );
 };
 
