@@ -12,4 +12,5 @@ export const tasksSlice = createSlice({
   },
 });
 
+export const tasksReducer = tasksSlice.reducer;
 export const { loadTasks: loadTasksActionCreator } = tasksSlice.actions;
