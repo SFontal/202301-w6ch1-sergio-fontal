@@ -1,5 +1,15 @@
+import CreateForm from "../CreateForm/CreateForm";
+import Header from "../Header/Header";
+
 const App = (): JSX.Element => {
-  return <div>Hola</div>;
+  return (
+    <>
+      <Header />
+      <main>
+        <CreateForm />
+      </main>
+    </>
+  );
 };
 
 export default App;
